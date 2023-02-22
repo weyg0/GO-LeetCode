@@ -27,6 +27,7 @@ func sortColors(nums []int) {
 	}
 }*/
 
+// 刷油漆
 func sortColors(nums []int) {
 	zero, one := 0, 0
 	for i, n := range nums {
