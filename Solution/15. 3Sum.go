@@ -1,4 +1,4 @@
-package leetCode
+package Solution
 
 import "sort"
 

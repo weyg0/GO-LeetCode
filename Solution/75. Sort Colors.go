@@ -1,4 +1,4 @@
-package leetCode
+package Solution
 
 // 内置函数
 /*import (
