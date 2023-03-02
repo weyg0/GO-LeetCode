@@ -1,4 +1,4 @@
-package Solution
+package solutions
 
 type MyQueue struct {
 	inStack, outStack []int

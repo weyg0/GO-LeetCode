@@ -1,4 +1,4 @@
-package Offer
+package offers
 
 type CQueue struct {
 	inStack, outStack []int

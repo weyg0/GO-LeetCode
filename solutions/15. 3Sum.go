@@ -1,4 +1,4 @@
-package Solution
+package solutions
 
 import "sort"
 

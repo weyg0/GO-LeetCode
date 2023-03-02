@@ -1,4 +1,4 @@
-package Solution
+package solutions
 
 func largestLocal(grid [][]int) [][]int {
 	n := len(grid)

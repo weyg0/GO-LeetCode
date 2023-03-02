@@ -1,4 +1,4 @@
-package Solution
+package solutions
 
 // 内置函数
 /*import (
