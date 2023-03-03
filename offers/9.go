@@ -5,9 +5,9 @@ type CQueue struct {
 	inLen, outLen     int
 }
 
-func Constructor() CQueue {
-	return CQueue{}
-}
+//func Constructor() CQueue {
+//	return CQueue{}
+//}
 
 func (this *CQueue) AppendTail(value int) {
 	this.inStack = append(this.inStack, value)
