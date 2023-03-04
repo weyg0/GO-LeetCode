@@ -1,4 +1,4 @@
-package solutions
+package leetcode
 
 type MyQueue struct {
 	inStack, outStack []int

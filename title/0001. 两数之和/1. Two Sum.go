@@ -1,4 +1,4 @@
-package solutions
+package leetcode
 
 // 双重循环
 /*func twoSum(nums []int, target int) []int {

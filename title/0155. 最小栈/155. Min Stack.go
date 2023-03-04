@@ -1,8 +1,8 @@
-package solutions
+package leetcode
 
-/*import "math"
+import "math"
 
-type MinStack struct {
+/*type MinStack struct {
 	stack []int
 	min   int
 	size  int
@@ -47,9 +47,9 @@ type MinStack struct {
 	size            int
 }
 
-//func Constructor() MinStack {
-//	return MinStack{minStack: []int{math.MaxInt}}
-//}
+func Constructor() MinStack {
+	return MinStack{minStack: []int{math.MaxInt}}
+}
 
 func (this *MinStack) Push(val int) {
 	this.stack = append(this.stack, val)

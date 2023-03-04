@@ -1,8 +1,10 @@
-package offers
+package offer
 
-import "../solutions"
-
-type ListNode = solutions.ListNode
+// ListNode Definition for singly-linked list.
+type ListNode struct {
+	Val  int
+	Next *ListNode
+}
 
 func reversePrint(head *ListNode) []int {
 	var ans []int

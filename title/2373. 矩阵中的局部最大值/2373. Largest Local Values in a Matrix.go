@@ -1,4 +1,4 @@
-package solutions
+package leetcode
 
 func largestLocal(grid [][]int) [][]int {
 	n := len(grid)

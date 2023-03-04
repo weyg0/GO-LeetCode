@@ -1,13 +1,13 @@
-package offers
+package offer
 
 type CQueue struct {
 	inStack, outStack []int
 	inLen, outLen     int
 }
 
-//func Constructor() CQueue {
-//	return CQueue{}
-//}
+func Constructor() CQueue {
+	return CQueue{}
+}
 
 func (this *CQueue) AppendTail(value int) {
 	this.inStack = append(this.inStack, value)
@@ -33,10 +33,3 @@ func (this *CQueue) DeleteHead() int {
 	this.outLen--
 	return res
 }
-
-/**
- * Your CQueue object will be instantiated and called as such:
- * obj := Constructor();
- * obj.AppendTail(value);
- * param_2 := obj.DeleteHead();
- */

@@ -1,4 +1,4 @@
-package solutions
+package leetcode
 
 // 暴力
 /*func countTriplets(nums []int) int {
