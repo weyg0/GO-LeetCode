@@ -16,6 +16,7 @@ The Road to LeetCode Solution
 | 232  |     用栈实现队列     |  Easy  |   `O(n)`   |   `O(n)`   |        Stack        |
 | 982  |  按位与为零的三元组  |  Hard  |  `O(n^2)`  |   `O(n)`   |                     |
 | 1487 |    保证文件名唯一    | Medium |   `O(n)`   |   `O(n)`   |       String        |
+| 1599 | 经营摩天轮的最大利润 | Medium |   `O(n)`   |   `O(1)`   |        Array        |
 | 2373 |  矩阵中的局部最大值  |  Easy  |  `O(n^2)`  |   `O(1)`   |                     |
 
 
