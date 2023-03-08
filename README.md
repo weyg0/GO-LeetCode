@@ -15,6 +15,7 @@ The Road to LeetCode Solution
 | 206  |          反转链表          |  Easy  |   `O(n)`   |   `O(1)`   |     Linked List     |
 | 232  |        用栈实现队列        |  Easy  |   `O(n)`   |   `O(n)`   |        Stack        |
 | 982  |     按位与为零的三元组     |  Hard  |  `O(n^2)`  |   `O(n)`   |                     |
+| 1096 |       花括号展开 II        |  Hard  | `O(nlogn)` |   `O(n)`   |         DFS         |
 | 1487 |       保证文件名唯一       | Medium |   `O(n)`   |   `O(n)`   |       String        |
 | 1599 |    经营摩天轮的最大利润    | Medium |   `O(n)`   |   `O(1)`   |        Array        |
 | 1653 | 使字符串平衡的最少删除次数 | Medium |   `O(n)`   |   `O(1)`   |       String        |

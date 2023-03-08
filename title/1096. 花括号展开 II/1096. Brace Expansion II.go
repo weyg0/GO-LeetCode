@@ -6,7 +6,7 @@ import (
 )
 
 func braceExpansionII(expression string) []string {
-	s := map[string]bool{}
+	s := map[string]struct{}{} // GO语言中struct{}表示空struct，仅作为占位符，不占用任何内存
 	dfs(expression, s)
 	ans := make([]string, 0)
 	for i := range s {
@@ -16,10 +16,10 @@ func braceExpansionII(expression string) []string {
 	return ans
 }
 
-func dfs(exp string, s map[string]bool) {
+func dfs(exp string, s map[string]struct{}) {
 	j := strings.Index(exp, "}")
 	if j == -1 {
-		s[exp] = true
+		s[exp] = struct{}{}
 		return
 	}
 	i := strings.LastIndex(exp[:j], "{")
