@@ -22,6 +22,7 @@ func max(a, b int) int {
 	return b
 }*/
 
+// DP+原地修改空间优化
 func maxValue(grid [][]int) int {
 	for i := 1; i < len(grid); i++ {
 		grid[i][0] += grid[i-1][0]
