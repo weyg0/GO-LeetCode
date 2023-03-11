@@ -17,6 +17,7 @@ The Road to LeetCode Solution
 | 982  |     按位与为零的三元组      |  Hard  |  `O(n^2)`  |   `O(n)`   |                     |
 | 1096 |        花括号展开 II        |  Hard  | `O(nlogn)` |   `O(n)`   |         DFS         |
 | 1487 |       保证文件名唯一        | Medium |   `O(n)`   |   `O(n)`   |       String        |
+| 1590 |     使数组和能被 P 整除     | Medium |   `O(n)`   |   `O(n)`   |     Prefix Sum      |
 | 1599 |    经营摩天轮的最大利润     | Medium |   `O(n)`   |   `O(1)`   |        Array        |
 | 1653 | 使字符串平衡的最少删除次数  | Medium |   `O(n)`   |   `O(1)`   |       String        |
 | 2373 |     矩阵中的局部最大值      |  Easy  |  `O(n^2)`  |   `O(1)`   |                     |
