@@ -1,28 +1,27 @@
 package leetcode
 
 func minSubarray(nums []int, p int) int {
-	total := 0
-	for _, v := range nums {
-		total = (total + v) % p
+	remainder := 0
+	for _, n := range nums {
+		remainder = (remainder + n) % p
 	}
-	if total == 0 {
+	if remainder == 0 {
 		return 0
 	}
-	last := map[int]int{0: -1}
-	n := len(nums)
-	ans := n
-	cur := 0
-	for i, v := range nums {
-		cur = (cur + v) % p
-		target := (cur - total + p) % p
-		if key, ok := last[target]; ok {
-			if i-key < ans {
-				ans = i - key
+	cur := 0                   // 前缀和
+	last := map[int]int{0: -1} // 余数最后出现的位置
+	ans := len(nums)
+	for i, n := range nums {
+		cur = (cur + n) % p
+		key := (cur + p - remainder) % p
+		if j, ok := last[key]; ok {
+			if i-j < ans {
+				ans = i - j
 			}
 		}
 		last[cur] = i
 	}
-	if ans == n {
+	if ans == len(nums) {
 		return -1
 	}
 	return ans
